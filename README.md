@@ -19,7 +19,8 @@ The other system need to push the data to the following endpoint of your CraftBe
 http://<RaspberryPi-IP-Addresse>:5000/api/httpsensor/<key>/<value>
 </code>
 
-Example
+Example URL:
+
 <code>
 http://192.168.0.19:5000/api/httpsensor/sensor1/10
 </code>
