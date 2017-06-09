@@ -12,18 +12,22 @@ Add a new sensor to your CraftBeerPi. The key properies defines the sensor name 
 
 The other system need to push the data to the following endpoint of your CraftBeerPi server.
 
-* key = sensor key - alpha nummeric without blanks
-* value = the new sensor value.
+* key = sensor key - alpha nummeric name without blanks
+* value = the new sensor value. Internaly handled as string
 
-<code>
+```
 http://<RaspberryPi-IP-Addresse>:5000/api/httpsensor/<key>/<value>
-</code>
+```
+
+down vote
+accepted
+Try putting your HTML snippet inside an ```HTML block like this:
 
 Example URL:
 
-<code>
+```
 http://192.168.0.19:5000/api/httpsensor/sensor1/10
-</code>
+```
 
 ## Hints
 
